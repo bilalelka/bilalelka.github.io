@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+
+<h1>The picture element</h1>
+
+<p>Resize the browser window to load different images.</p>
+<img src="images/land.jpg" alt="flower" />
+<!-- Als widht groter is dan 650 gebruik die de volgende image land als kleiner dan 365 image tijger-->
+<picture>
+    <source media="(min-width:650px)" srcset="images/land.jpg">
+    <source media="(min-width:365px)" srcset="images/tijger.jpg">
+    <img src="images/tijger.jpg" alt="Flowers"/>
+</picture>
+
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture?retiredLocale=nl -->
+
+</body>
+</html>
+

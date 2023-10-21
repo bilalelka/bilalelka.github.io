@@ -1,0 +1,18 @@
+h1,h2{
+    color: green;
+}
+
+.styleBlue{
+    color: blue;
+    font-size: 4em;
+}
+/* sectin>h1 wil zeggen onmiddelijk*/
+section  h1{
+    color: yellow;
+}
+h1{
+    font-size: 2ex;
+}
+h2{
+    font-size: 2em;
+}

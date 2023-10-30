@@ -1,0 +1,29 @@
+body{
+    background-color: yellow;
+}
+
+
+/*pseudo-element selector, enkel het eerste karakter moet deze opmaak hebben */
+p:first-letter{
+    font-size: 5em;
+    color: red;
+}
+
+p:first-line{
+}
+/*pseudo-class selector, op basis van een gedrag dat je een opmaak voorziet, */
+li >a:link{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+/*tweede li element in blauw*/
+li:nth-child(2){
+    color: blue;
+}
+/*even elementen in blauw als je oneven wilt moet je (2n+1)*/
+li:nth-child(2n){
+    color: blue;
+}

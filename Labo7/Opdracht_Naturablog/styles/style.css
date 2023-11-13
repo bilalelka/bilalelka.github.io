@@ -1,0 +1,43 @@
+body{
+    width: 95%;
+    margin: auto;
+
+}
+.achtergrond{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+}
+header > h1{
+    color: white;
+    font-size: 40px;
+    font-family: Verdana;
+
+}
+
+article{
+    background-color: beige;
+}
+article header h1{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #2B2D42;
+}
+nav{
+    background-color: #2B2D42;
+}
+nav a{
+    color: springgreen;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+section article{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+
+}

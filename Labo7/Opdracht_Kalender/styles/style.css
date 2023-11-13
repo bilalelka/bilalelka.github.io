@@ -1,0 +1,40 @@
+table{
+    border: 3px solid;
+    border-collapse: collapse;
+}
+td{
+    border-style: dotted;
+    padding: 4px;
+    border-color: lightgray;
+    border-width: 1px;
+}
+thead tr{
+    background-color: rgb(170,170,200) ;
+}
+
+.dagen{
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+
+.zestien{
+    background-color: rgb(250,120,120);
+}
+
+.blauw{
+    color: blue;
+    text-decoration: underline blue;
+}
+
+.diffmaand{
+    background-color: lightgray;
+    color: gray;
+}
+tr td:first-child:not(.dagen):not(.diffmaand) {
+    background-color: rgb(255,220,220);
+}
+tr td:last-child:not(.dagen):not(.diffmaand) {
+    background-color: rgb(255,220,220);
+}
+
+

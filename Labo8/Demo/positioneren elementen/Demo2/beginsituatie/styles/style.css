@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+
+}
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+nav{
+    width: 20%;
+    background-color: yellow;
+    float: left;
+    height: 200px;
+}
+nav a{
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+}
+
+section{
+    width: 80%;
+    background-color: red;
+    float: left;
+    height: 200px;
+}
+
+footer{
+    background-color: limegreen;
+    width: 100%;
+    clear: both;
+    height: 200px;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.breedte{
+    display: inline-block;
+    width: 500px;
+    background-color: green;
+    margin: 200px;
+    padding: 100px;
+}

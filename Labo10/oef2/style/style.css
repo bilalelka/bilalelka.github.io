@@ -1,0 +1,27 @@
+#rood{
+    background-color: red;
+}
+
+#blauw{
+    background-color: blue;
+}
+
+#oranje{
+    background-color: orange;
+}
+
+#beige{
+    background-color: beige;
+}
+
+#groen{
+    background-color: green;
+}
+
+#geel{
+    background-color: yellow;
+}
+
+.height{
+    height: 300px;
+}

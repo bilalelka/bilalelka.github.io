@@ -1,0 +1,28 @@
+table,th,td {
+    border: 1px solid;
+}
+th{
+    background-color: orange;
+}
+
+#personal{
+    background-color: yellow;
+}
+#hobby{
+    background-color: orange;
+}
+#friends{
+    background-color: beige;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+#like{
+    background-color: deepskyblue;
+
+}
+#head{
+    background-color: deeppink;
+}

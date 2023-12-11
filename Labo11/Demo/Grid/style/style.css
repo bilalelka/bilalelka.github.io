@@ -1,0 +1,72 @@
+/* items */
+
+section div {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+    border: 10px solid white
+
+}
+
+/* specific item styles */
+
+.item-1 {
+    background: #b03532;
+}
+.item-2 {
+    background: #33a8a5;
+}
+.item-3 {
+    background: #30997a;
+}
+.item-4 {
+    background: #6a478f;
+}
+.item-5 {
+    background: #da6f2b;
+}
+.item-6 {
+    background: #3d8bb1;
+}
+.item-7 {
+    background: #e03f3f;
+}
+.item-8 {
+    background: #59a627;
+}
+.item-9 {
+    background: #4464a1;
+}
+
+section{
+    display: grid; /* dit maakt een raster/een grid container*/
+    grid-template-columns: 1fr 2fr 1fr;
+    /* maak 3 kolomen waarbij de 2de kolom groter is dan de 1ste en 3de*/
+    /* Je moet het zien als 1/4, 2/4, 1/4/ */
+    grid-auto-rows: auto auto auto;
+    /* je kon ook grid-auto-rows: 1fr 1fr 1fr schtijven */
+    grid-gap: 20px;
+}
+/*als mijn scherm meer dan 760 is dan geld wat er boven staat. Als het kleiner is ga je doen wat er in die media query staat */
+@media screen and (max-width: 760px)
+{
+    section{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: repeat(6,1fr) ;
+        /* je kon ook 1fr 1fr 1fr 1fr 1fr 1fr schrijven */
+    }
+    .item-1 {
+        grid-area: 6/1 /7/ 3 ;   /* begin rij/begin kol     /einde rij/einde kolom */
+    }
+    .item-3{
+        grid-area: 4/1/5/3;
+    }
+    .item-6{
+        grid-area: 5/1/6/3;
+    }
+    .item-9{
+        grid-area: 1/1/2/2;
+    }
+
+}

@@ -39,9 +39,9 @@
             font-size:15px;
             padding:15px;
         }
-        .box1{background:green; /*flex-grow: 1;*/ flex-basis:150px; } /*  flex-grow: 1 alle ruimte (100%) die over was mag je volledig aan de groene balk geven, als j 0,5 doet neemt hij de helft in*/
+        .box1{background:green; flex-grow: 1;flex-basis:150px; } /*  flex-grow: 1 alle ruimte (100%) die over was mag je volledig aan de groene balk geven, als j 0,5 doet neemt hij de helft in*/
         .box2{background:blue; flex-grow: 2; flex-basis:150px;} /* 1/3 mag naar de groene element en 2/3 naar de blauwe*/
-        .box3{background:red; flex-shrink: 0; flex-basis:150px;}  /* flex shrink staat standaard op 1. Als je 0 schrijft zeg je dat hij altijd 150 moet blijven*/
+        .box3{background:red; flex-grow: 1; flex-basis:150px;}  /* flex shrink staat standaard op 1. Als je 0 schrijft zeg je dat hij altijd 150 moet blijven*/
 
         .container {
             display: flex;

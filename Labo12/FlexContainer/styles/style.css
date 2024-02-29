@@ -22,9 +22,9 @@ section {
     background: coral;
     height: 500px;
     display: flex;
- /* ik wil even veel marge maar dit werkt alleen als er plaats is in je container */
 
-    /* als je geen align itmes gebruik doet hij standaard stretch */
+ /* ik wil even veel marge maar dit werkt alleen als er plaats is in je container */
+    /* als je geen align itmes gebruik doet hij standaard stretch, align-self is eigenschap aanvaard dezelfde waarden als align-items maar wordt gebruikt om de waarde op individueel niveau te overschrijven. */
 
 }
 

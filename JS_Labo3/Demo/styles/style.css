@@ -1,0 +1,14 @@
+.listItemsStyleNone{
+    list-style-type: none;
+}
+.colorRed{
+    background-color: red;
+}
+
+.colorWhite{
+    background-color: white;
+}
+.listItemsStyleBullet{
+    list-style-type: disc;
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+    <form action="" method="post">
+        <label for="txtFirstName"> First Name*: </label>
+        <input type="text" id="txtFirstName" autofocus="autofocus" required><br>
+        <label for="txtLastName"> Last Name*: </label>
+        <input type="text" id="txtLastName" required> <br>
+        <p>Wich sport do you train? </p>
+        <label for="ckRun"> Running</label>
+        <input type="checkbox" name="running" id="ckRun"><br>
+        <label for="ckSwim"> Swimming</label>
+        <input type="checkbox" name="swimming" id="ckSwim"><br>
+        <label for="ckRow"> Running</label>
+        <input type="checkbox" name="rowing" id="ckRow">
+        <p>What gender are you</p>
+        <label for="rdMale"> Male</label>
+        <input type="radio" name="gender" id="rdMale" value="m"><br>
+        <label for="rdFemale"> Female</label>
+        <input type="radio" name="gender" id="rdFemale" value="f"><br>
+        <label for="txtMovie"> Favorite movie: </label>
+        <input type="text" id="txtMovie">    <br>
+        <label for="txtQuote"> Favorite quote: </label>
+        <input type="text" id="txtQuote" placeholder="Write youre favorite quote"> <br>
+        <label for="txtPass"> Password*: </label>
+        <input type="password" id="txtPass"> <br>
+        <label for="sltFood">Favorite food: </label>
+        <select name="sltFoof" id="sltFood" size="3" multiple="multiple">
+            <option value="1"> Hamburger</option>
+            <option value="2"> Hot Dog</option>
+            <option value="3"> Pizza </option>
+        </select> <br>
+        <label for="file"></label>
+        <input type="file" id="file"> <br>
+        <label for="emEMail"> Email adress</label>
+        <input type="email" id="emEMail" placeholder="Enter youre email"> <br>
+        <label for="url"> Email adress</label>
+        <input type="url" id="url" placeholder="Enter youre URL"> <br>
+        <label for="numFav">Favorite number between 1-10</label>
+        <input type="number" id="numFav" min="1" max="10"> <br>
+        <label for="txtNumber">Favorite number between 11-1000</label>
+        <input type="range" id="txtNumber" min="11" max="1000"><br>
+        <label for="txtDate"> When where you born?</label>
+        <input type="date" id="txtDate"><br>
+        <label for="txtPostcode">Belgium zip-code reg number?*: </label>
+        <input type="number" id="txtPostcode" placeholder="9999" pattern="[0-9]{4}"> <br>
+        <label for="txtSearch"> Search for something: </label>
+        <input type="search" id="txtSearch"><br>
+        <label for="txtColor"> What is youre favorite color? </label>
+        <input type="color" id="txtColor"> <br>
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+</body>
+</html>

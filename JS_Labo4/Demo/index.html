@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+
+<form action="">
+    <label for="txtName"> Name*: </label>
+    <input type="text" placeholder="Vul hier naam in" id="txtName" required>
+    <br>
+         <label for="txtPass"> Password*: </label>
+         <input type="password" id="txtPass">
+    <br>
+    <label for="txtPhone"> Phone*: </label>
+    <input type="tel" id="txtPhone" pattern="04[0-9]{2}\/[0-9]{6}" />
+    <br>
+    <!-- [0-9] is een range {2} wil zeggen frequentie dus hoevaak -->
+    <label for="txtUrl"> Url: </label>
+    <input type="url" id="txtUrl">
+    <br>
+    <input type="submit" value="send">
+</form>
+</body>
+</html>

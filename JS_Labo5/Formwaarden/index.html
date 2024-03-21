@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+
+<form action="" method="post">
+    <label for="chkBox"> is roker</label>
+    <input id="chkBox" type="checkbox"> <br>
+    <br>
+    <span> Moedertaal</span> &nbsp; <label for="rdNl"> Nederlands</label>
+    <input type="radio" name="taal" id="rdNl" value="nl">
+    <label for="rdFr"> Frans</label>
+    <input type="radio" name="taal" id="rdFr" value="fr">
+    <label for="rdEng"> Engels</label>
+    <input type="radio" name="taal" id="rdEng" value="en"><br>
+    <br>
+    <label for="buurland">Favoriete Buurland:</label>
+    <select id="buurland" name="buurland">
+        <option value="Nederland">Nederland</option>
+        <option value="Frankrijk">Frankrijk</option>
+        <option value="Duitsland">Duitsland</option>
+    </select>
+    <br>
+    <br>
+    <label for="sltFood">Bestelling: </label>
+    <select name="sltFood" id="sltFood" size="6" multiple="multiple">
+        <option value="1"> aardappelen</option>
+        <option value="2"> melk</option>
+        <option value="3"> brood </option>
+        <option value="4"> biefstuk </option>
+        <option value="5"> chips </option>
+        <option value="6"> krant </option>
+    </select> <br>
+    <br>
+    <input id="btnToon" type="button" value="Toon resultaat">
+
+    <div id="resultaat"></div>
+    
+</form>
+</body>
+</html>
